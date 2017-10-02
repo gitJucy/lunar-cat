@@ -1,13 +1,13 @@
 import React from 'react';
-
-const ArrowBoxLeft=(props)=>{
+const ArrowBoxLeft =(props)=>{
     return(
-    <div>
-    
-        <img src='./arrow.svg'/>
-            
-    </div>
-    )
-};
-
+        <div>
+            <select>
+                <option>
+                    {}
+                </option>
+            </select>
+        </div>
+    );
+}
 export default ArrowBoxLeft;

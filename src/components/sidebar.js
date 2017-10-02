@@ -6,8 +6,9 @@ const Sidebar = (props)=> {
     return <BarItem key={ entity.toString() } entity={ entity } />
    });
    
-        var divStyle = {
+        let divStyle = {
             width: '20em',
+            paddingTop:'.75em'
             // position:'relative'
 
 

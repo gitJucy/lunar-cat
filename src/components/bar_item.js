@@ -2,15 +2,17 @@ import React,{Component, PropTypes} from 'react';
 
     
 const BarItem = ({entity})=>{
-        var divStyle={
+        let divStyle={
             borderStyle:'solid',
-            borderColor:'gray',
-            borderWidth:'1px',
+            borderColor:'rgb(234, 255, 0)',
+            borderWidth:'2px',
             borderRadius:'10px',
-            padding:'1em',
-            margin:'1em',
+            padding:'.8em',
+            margin:'.8em',
             backgroundColor: 'rgb(32, 117, 166)',
             color:'white',
+            fontSize:'18px',
+            boxShadow:'0px 2px 0px 0px rgba(0,0,0,.2)'
 
         }
 const itemSource={
@@ -18,7 +20,7 @@ const itemSource={
         return{};
     }
 };
-function collect(connect, monitor) {
+const collect=(connect, monitor)=> {
     return {
         connectDragSource: connect.dragSource(),
         isDragging: monitor.isDragging()

@@ -3,31 +3,32 @@ import SelectOption from './select_option.js';
 
 const DropLeft = (props) => {
 
-    const peopleThings = props.people.map((thing) => {
+    const peopleThings = props.people.map( thing => {
         return <SelectOption key={ thing.toString() } thing={ thing } />
     });
-    const divStyle = {
+    let divStyle = {
         width: '300px',
         height: '200px',
-        borderStyle: 'solid',
-        borderColor: 'gray',
-        borderWidth: '1px',
         position: 'absolute',
         top: '10%',
         left: '24%',
         borderRadius: '10px',
+        borderColor: 'transparent',
         backgroundColor: 'rgb(255,255,255)',
-        textAlign: 'center'
+        textAlign: 'center',
+        boxShadow: '0px 4px 1px 0px rgba(32, 117, 166, .4)'
+
 
 
     }
 
 
     return (
-
-        <select style={divStyle} className='form-group'>
-            {peopleThings}
-        </select>
+        <div style={divStyle}>
+            <select className='form-group form-control'>
+                {peopleThings}
+            </select>
+        </div>
 
 
 

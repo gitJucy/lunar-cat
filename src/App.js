@@ -37,11 +37,11 @@ class App extends Component {
     return (
       <div className='App' style={{backgroundColor:'rgb(238,238,238)'}}>
         <Sidebar ent = {this.state.ent}/>
-        <DropBottom people = {this.state.people}/>
+        <DropBottom people = {this.state.people} />
         <DropLeft people = {this.state.people} />
-        <DropRight people={this.state.people} />
+        <DropRight people= {this.state.people} />
         <Qbox />
-        <ArrowBoxLeft />
+        <ArrowBoxLeft preds= {this.state.preds} />
       </div>
     );
   }
