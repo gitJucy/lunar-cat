@@ -19,7 +19,7 @@ class Qbox extends Component {
 
     return (
         <div style={divStyle} className='container-fluid'>
-            <h4 >Relationships generated here...</h4>
+        <h4>Return relationships here...</h4>
         </div>
     );
     }

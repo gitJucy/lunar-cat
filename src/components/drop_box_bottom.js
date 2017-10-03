@@ -28,10 +28,6 @@ const DropBottom = (props)=> {
                    {peopleThings} 
                 </select>
             </div>
-                
-
-
-            
         );
     
 

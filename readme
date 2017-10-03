@@ -1,0 +1,18 @@
+I have never had the opportunity to work with drag and drop before this exercise.  
+Some of the remnants of my experiments are still sitting in the imports for the project at this point.  
+
+When I was unable to access data the first time through, I decided to frame out the components 
+of my app to make further work easier.  If I were to attempt a project like this again I would build 
+components based around the React DnD library by Dan Abramov as it seem to be the most complete without making too many 
+assumptions about the type of function you need.  Incorporating it into a pre-existing set of components was painful.
+
+This app is meant to be viewed at 100% in a browser and does not play well with responsiveness by design.
+
+I decided it would be better to get this in your hands quickly rather than finish the last 
+scrappy bits of what I was working on and go down the road of re-building the app from scratch to incorporate 
+a different library based approach to functionality.  I know you are looking for hands on the keys sooner rather than later!
+I hope you can see the direction I was heading and hope I get the opportunity to 
+contribute with you in the future.
+
+Cheers,
+John Lucy

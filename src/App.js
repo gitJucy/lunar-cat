@@ -8,7 +8,9 @@ import DropBottom from './components/drop_box_bottom.js';
 import DropLeft from './components/drop_box_left.js';
 import DropRight from './components/drop_box_right.js';
 import Qbox from './components/querybox.js';
-import ArrowBoxLeft from './components/relate_box_left.js';
+import RBoxLeft from './components/relate_box_left.js';
+import RBoxRight from './components/relate_box_right.js';
+import RBoxTop from './components/relate_box_top';
 
 class App extends Component {
   constructor(props){
@@ -40,8 +42,10 @@ class App extends Component {
         <DropBottom people = {this.state.people} />
         <DropLeft people = {this.state.people} />
         <DropRight people= {this.state.people} />
+        <RBoxLeft preds = {this.state.preds} />
+        <RBoxRight preds={this.state.preds} />
+        <RBoxTop preds = {this.state.preds}/>
         <Qbox />
-        <ArrowBoxLeft preds= {this.state.preds} />
       </div>
     );
   }
